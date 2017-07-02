@@ -1,0 +1,9 @@
+com\epm\dao\UsersDAO.class
+com\epm\dao\impl\UsersDAOImpl.class
+com\epm\frontfaces\Login.class
+com\epm\jdbc\ConnectionManagerTest.class
+com\epm\jdbc\ConnectionManager.class
+com\epm\dao\Sqls.class
+com\epm\jdbc\ConnectionManagerDataSource.class
+com\epm\dto\ResponseMessage.class
+com\epm\dto\Users.class

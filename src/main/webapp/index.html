@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div class="w3-container w3-light-grey w3-border-bottom w3-border-blue w3-opacity-min">
+		<a href="index.html"><img src="images/expense.png" class="avatar"></a>
+		<span class="loginStyle">EPM v2.0</span>
+	</div>
+	<!--<div class="slogan">"We help you to manage</div><br> 
+    &emsp;<div>your Expenses"</div>-->
+	<!--<div class="slogan">"We help you to manage your Expenses"</div>-->
+	<div class="w3-container">
+		<div class="sloganRight w3-margin">
+			<p>
+				<i class="fa fa-quote-right w3-xxxlarge w3-text-blue"></i><br>
+				<i class="w3-serif w3-xxlarge w3-text-blue">
+						We help you <br>to manage <br>your expenses
+					</i>
+			</p>
+		</div>
+		<div class="w3-container">
+			<div class="w3-display-bottomright w3-margin-0">
+				<form class="modal-content animate">
+					<div class="container">
+						<label class="fontStyle"><b>LOGIN</b></label><br>
+						<br> <label class="fontStyle"><b>UserName</b></label>&emsp;<label
+							class="usn_pswCheck" id="notEntered"></label>
+						<!-- <p id="userNotEntered">User</p> -->
+						<input class="fontStyle" type="text" placeholder="Enter Username"
+							name="uname" id="uname" required> <label
+							class="fontStyle"><b>Password</b></label>
+						<!-- &emsp;<label class="usn_pswCheck">Psw_Wrong</label> -->
+						<input class="fontStyle" type="password"
+							placeholder="Enter Password" name="psw" id="psw" required>
+						<button type="submit" id="loginbtn" onclick="login()">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
